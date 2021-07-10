@@ -1,0 +1,50 @@
+//Esquemas de color
+    //Esquema Claros
+        $white: #FFF;
+        $platinum: #e6e7e7;
+        $light-gray:#d1d1d1;
+    //Esquema Rosas
+        $fuzzy-wuzzy: #E56353;
+        $ruddy-pink: #D76C69;
+        $spanish-pink: #ECBCBA;
+    //Esquema Oscuros
+        $eerie-black: #121619;
+        $raisin-black: #222323;
+        $nickel: #6C6E70;
+
+//Fontsizes
+    $xxl_font: 4.375rem;
+    $xl_font: 1.875rem;
+    $large_font: 1.125rem;
+    $medium_font: 1rem;
+    $small_font: 0.75rem; 
+
+//Fuentes
+    $playfair: "Playfair Display";
+    $roboto: "Roboto";
+
+//header background
+    $h-background: url("../../assets/img/post-image.jpg");
+
+
+
+//pagination
+    $pagination-border-radius: 5rem !default;
+    $pagination-color: $nickel;
+    //pagination active
+        $pagination-active-color: $white;
+        $pagination-active-bg: $nickel;
+        $pagination-active-border-color:    $light-gray;
+    //pagination hover
+        $pagination-hover-color:            $nickel;
+        $pagination-hover-bg:               $light-gray;
+        $pagination-hover-border-color:     $nickel;
+    //pagination focus
+        $pagination-focus-color:            $nickel;
+        $pagination-focus-bg:               $white;
+        $pagination-focus-box-shadow:       $nickel;
+
+//boton social
+    $btn-box-shadow: $light-gray;
+    $btn-active-box-shadow:  $light-gray;
+    $btn-focus-box-shadow: $light-gray;

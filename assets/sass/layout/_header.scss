@@ -1,0 +1,39 @@
+header{
+    background: $h-background;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    background-position: top;
+    min-height: 50vh !important;
+    @media screen and (min-width: 320px) and (max-width:719px){
+        height: 95vh; 
+    }
+    @media screen and (min-width: 720px){
+        height: 50vh !important; 
+    }
+    .header__div{
+        max-width: 75vh;
+        .header__h1{
+            @media screen and (min-width: 320px){
+                font-size: $xl_font; 
+            }
+            
+            @media screen and (min-width: 720px){
+                font-size: $xxl_font; 
+            }
+        }
+
+            h1{
+                color: $white;
+                margin:auto;
+                vertical-align: middle;
+                text-align: center;
+                font-family: $playfair;
+                font-weight: 900;
+                font-style: italic;
+                text-shadow: 2px 2px 8px $eerie-black;
+                
+
+            }
+    }
+}

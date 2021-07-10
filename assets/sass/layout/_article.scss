@@ -1,0 +1,30 @@
+.article{
+    .article__h4{
+        font-family: $playfair;
+    }
+  
+    .article__parrafo{
+        font-family: $roboto;
+        font-size: $medium_font;
+        font-weight: 300;
+        color: $raisin-black;
+        text-align: justify;
+        line-height : 32px;
+    }
+
+    .article__button{
+        border-radius: 50px;
+        background-color: $nickel;
+        color: $white;
+
+            &:hover{
+                color: $white !important;
+                background-color: $light-gray;
+            }
+            &:focus{
+                color: $white !important;
+                background-color: $light-gray;
+                box-shadow: $light-gray !important;
+            }
+    }
+}  

@@ -1,0 +1,23 @@
+
+//functions bootstrap
+@import "../../.gitignore/node_modules/bootstrap/scss/functions";
+
+//Abstracts
+@import "abstracts/variables";
+
+//Base
+@import "base/typography";
+@import "base/reset";
+
+
+//Layout
+@import "layout/nav";
+@import "layout/header";
+@import "layout/article";
+@import "layout/section";
+@import "layout/footer";
+
+//Bootstrap
+@import "../../.gitignore/node_modules/bootstrap/scss/bootstrap.scss";
+
+
